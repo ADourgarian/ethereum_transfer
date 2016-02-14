@@ -1,0 +1,58 @@
+{
+  "name": "UPcal",
+  "description": "A web application for Union Park",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "name": "Andrew Dourgarian",
+      "email": "andrewdourgarian@yahoo.com"
+    }
+  ],
+  "scripts": {
+    "lint:server": "eslint server",
+    "lint:browser": "eslint public/js",
+    "start": "node server/start.js",
+    "start:debug": "DEBUG=* npm run start",
+    "start:watch": "nodemon server/start.js",
+    "test": "npm run lint:server && npm run test:server && npm run lint:browser && npm run test:browser",
+    "test:browser": "echo 'Not yet implemented'",
+    "test:server": "PORT=52345 LOG_LEVEL=error mocha --opts .mocha.opts",
+    "test:server:watch": "npm run test:server -- --watch"
+  },
+  "dependencies": {
+    "angular": "1.4.8",
+    "angular-route": "1.4.9",
+    "angular-ui-bootstrap": "^1.1.1",
+    "async": "1.5.2",
+    "body-parser": "1.13.2",
+    "bootstrap": "^3.3.6",
+    "config": "1.19.0",
+    "dotenv": "2.0.0",
+    "express": "4.13.1",
+    "jade": "1.11.0",
+    "karma": "0.13.19",
+    "loglevel": "1.4.0",
+    "mkdirp": "0.5.1",
+    "morgan": "1.6.1",
+    "ng-tags-input": "3.0.0",
+    "request": "2.69.0"
+  },
+  "devDependencies": {
+    "chai": "3.4.1",
+    "eslint": "1.9.0",
+    "karma": "0.13.19",
+    "mocha": "2.3.4",
+    "nock": "5.2.1",
+    "nodemon": "1.8.1",
+    "supertest": "1.1.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carnesen/union-park.git"
+  },
+  "bugs": {
+    "url": "https://github.com/carnesen/union-park/issues"
+  },
+  "homepage": "https://github.com/carnesen/union-park#readme"
+}

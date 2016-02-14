@@ -1,0 +1,201 @@
+body {
+  font-family: helvetica;
+}
+
+main {
+  width:100%;
+  padding-top:30px;
+}
+
+
+input {
+  /*border: 1px brown solid;*/
+  padding: 1%;
+  margin: 1% auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+td {
+  font-size: 20px;
+}
+
+li {
+  font-size: 16px;
+}
+
+
+i {
+  vertical-align: middle;
+  font-size: 24px;
+}
+
+/* search icon near filter */
+span.glyphicon {
+  position: absolute;
+  top:10px;
+  right:10px;
+}
+
+tbody tr:hover {
+  color: #337AB7;
+}
+
+.header {
+  margin-top: 20px;
+  padding: 5px 20px 20px 5px;
+}
+
+/* UP logo */
+.logoheader {
+  position: relative;
+  margin-left: 30px;
+  float: left;
+  width: 200px;
+  height: 200px;
+  padding: 10px 20px 10px 10px;
+}
+
+.title {
+  margin-top: 70px;
+  margin-left: 40px;
+  padding-top: 10px;
+}
+
+.addFilterText {
+  margin-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.tagFilter{
+  width: 300px;
+}
+
+tbody tr:hover {
+  color: #337AB7;
+}
+
+/* Table */
+.tableContainer {
+  margin: 0 75px;
+}
+
+.page.container-fluid {
+  /*border: 1px pink solid;*/
+  margin: auto;
+}
+
+/* Text & Color */
+.bold {
+  font-weight: 700;
+}
+
+.grey {
+  color: grey;
+}
+
+/* Buttons */
+.logoutButton{
+  width:150px;
+  height:40px;
+  display:inline;
+  float:right;
+}
+.addEventButton {
+  width:100%;
+  font-size: 150%;
+}
+
+.addEventButton:hover {
+  background-color: #337AB7;
+  color: #FFFFFF;
+}
+
+.editButton:hover {
+  background-color: #337AB7;
+  color: #FFFFFF;
+}
+
+.addEventButton:hover {
+  background-color: #337AB7;
+  color: #FFFFFF;
+}
+
+.deleteButton:hover {
+  background-color: #337AB7;
+  color: #FFFFFF;
+}
+
+.logoutButton:hover {
+  background-color: #337AB7;
+  color: #FFFFFF;
+}
+/* Pagination */
+.listLengthSelector {
+  margin: 0 auto;
+}
+
+.tableContainer {
+  margin: 0 75px;
+}
+
+/* Add Event, Filter Search */
+.addEventCol {
+  height:50px;
+  width:300px;
+  margin: 0 auto;
+}
+
+.addFilterCol {
+  width:300px;
+  margin: 0 auto;
+}
+
+/* Modal */
+.modal-title {
+  text-align: center;
+}
+
+/* LOGIN STUFF */
+
+/* login box */
+.login-card {
+  padding: 40px;
+  width: 500px;
+  height: 500px;
+  background-color: #F7F7F7;
+  margin: 80px auto 100px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+/* login submit button */
+.login-default {
+  border: 0px;
+  color: #fff;
+  width: 200px;
+  margin-left: 0px;
+  margin-top: 80px;
+
+  text-shadow: 0 1px rgba(0,0,0,0.1);
+  background-color: #000000;
+}
+
+.login-default:hover {
+  color: #000000;
+  background-color: #fff;
+  border: 1px #000000 solid;
+}
+
+
+/* UP logo in login-box */
+.loginimage {
+  position: relative;
+  margin: 10px 100px;
+  padding: 10px;
+}

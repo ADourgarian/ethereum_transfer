@@ -1,0 +1,21 @@
+doctype html
+html(ng-app="ethereumTransfer")
+  head
+    title= title
+    link(rel="stylesheet" href='/lib/ng-tags/ng-tags-input.min.css')
+    link(rel='stylesheet' href='/lib/bootstrap/css/bootstrap.min.css')
+    link(rel='stylesheet' href='/css/main.css')
+    script(src='lib/angular.min.js')
+    script(src='lib/angular-route.min.js')
+    script(src='/lib/ng-tags/ng-tags-input.min.js')
+    script(src='lib/ui-bootstrap-tpls.js')
+    script(src='/scripts/appConfig.js')
+    script(src='/scripts/services/dashFact.js')
+    script(src='/scripts/controllers/dashCtrl.js')
+  body
+    .page.container-fluid
+      .row
+        .header.navbar
+          img.logoheader(src='ETHEREUM-ICON_Black.png' alt='Ethereum Logo' style='width:200px;height:200px;')
+          h1.title= 'Ethereum Transfer'
+      block content
